@@ -1,0 +1,14 @@
+.main {
+  cursor: default;
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  color: #2A3338;
+  svg {
+    font-size: 3rem;
+  }
+  p {
+    margin: 0;
+    font-weight: 500;
+  }
+}

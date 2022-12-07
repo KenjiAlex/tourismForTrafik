@@ -1,0 +1,19 @@
+.main {
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: flex-start;
+  h1 {
+    color: #2A3338;
+    font-weight: 500;
+  }
+}
+
+.cardLine {
+  display: flex;
+  justify-content: space-between;
+  width: 70rem;
+  padding: .8rem 0;
+}
+

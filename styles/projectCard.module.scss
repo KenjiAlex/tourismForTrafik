@@ -1,0 +1,17 @@
+.main {
+  width: 22rem;
+  height: 7rem;
+  background-color: #208076;
+  border-radius: .5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.5rem 1rem;
+  h4 {
+    width: 15rem;
+  }
+  h6 {
+    margin: 0;
+  }
+}

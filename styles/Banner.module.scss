@@ -1,0 +1,15 @@
+.main {
+  background: linear-gradient(180deg, rgba(172,172,172,1) 0%, rgba(34,117,156,1) 100%);
+  width: 70rem;
+  height: 30rem;
+  margin: .5rem 0;
+  align-self: center;
+  border-radius: .4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: white;
+    font-size: 3rem;
+  }
+}

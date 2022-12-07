@@ -1,0 +1,64 @@
+.info {
+  margin: .5rem 0;
+  display: flex;
+  width: 70rem;
+  justify-content: space-between;
+}
+
+.cards {
+  width: 22rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.infoElement {
+  .header {
+    font-weight: 500;
+    font-size: larger;
+    color: #2A3338;
+  }
+  .content {
+    color: #2A3338;
+    font-weight: 400;
+    font-size: large;
+  }
+  .date {
+    color: #C2CEDA;
+    bottom: 0;
+  }
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #F4F9FF;
+  width: 22rem;
+  border-radius: .5rem;
+  height: 65rem;
+  padding: 2.5rem 2rem;
+  .redHead {
+    padding: .2rem .5rem;
+    height: 1.5rem;
+    color: white;
+    border-radius: .3rem;
+    font-size: x-small;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC1C24;
+  }
+  .blueHead {
+    height: 1.5rem;
+    padding: .2rem .5rem;
+    color: white;
+    border-radius: .3rem;
+    font-size: x-small;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F5BFF;
+  }
+}
